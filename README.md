@@ -1,5 +1,7 @@
 # Mailinglist microservice (JSON/gRPC)
 
+[ZTM Golang course](https://zerotomastery.io/courses/learn-golang/) project.
+
 ## Setup
 
 This project requires a `gcc` compiler installed and the `protobuf` code generation tools.
