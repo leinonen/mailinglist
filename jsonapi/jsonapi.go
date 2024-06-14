@@ -166,6 +166,7 @@ func Serve(db *sql.DB, bindAddr string) {
 	http.Handle("/email/update", UpdateEmail(db))
 	http.Handle("/email/delete", DeleteEmail(db))
 
+	log.Printf("JSON API serve listening on %v", bindAddr)
 	err := http.ListenAndServe(bindAddr, nil)
 
 	if err != nil {
