@@ -1,4 +1,6 @@
-# Setup
+# Mailinglist microservice (JSON/gRPC)
+
+## Setup
 
 This project requires a `gcc` compiler installed and the `protobuf` code generation tools.
 
